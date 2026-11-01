@@ -110,8 +110,9 @@ Everyone the family invites joins free. Connecting an assistant costs nothing ex
   `https://clerk.kumbaa.app` (Clerk).
 - Clients identify themselves with a client ID metadata document (CIMD,
   `client_id_metadata_document_supported: true`). Claude, Claude Code and ChatGPT use it;
-  VS Code and Gemini CLI say they support it too. Dynamic client registration is off, so
-  apps that only use it (Cursor and `mcp-remote`, as of November 2026) can't sign in yet.
+  VS Code and Gemini CLI say they support it too. Dynamic client registration is on as
+  well (`registration_endpoint: https://clerk.kumbaa.app/oauth/register`), for Cursor,
+  `mcp-remote` and other apps that only use it.
 - Discovery: an unauthenticated request gets `401` with
   `WWW-Authenticate: Bearer resource_metadata="https://kumbaa.app/.well-known/oauth-protected-resource/mcp"`.
   Also `https://kumbaa.app/.well-known/oauth-protected-resource` and
