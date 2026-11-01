@@ -1,0 +1,9 @@
+{
+  "name": "kumbaa",
+  "version": "1.0.0",
+  "description": "Your family's private archive in Cursor: the family tree, life stories, photos and albums, and for curators adding people, captioning photos and inviting relatives. Sign in with your Kumbaa account.",
+  "author": { "name": "Arigato Consulting Pty Ltd", "email": "support@kumbaa.app" },
+  "homepage": "https://kumbaa.app",
+  "license": "MIT",
+  "logo": "assets/logo-400.png"
+}

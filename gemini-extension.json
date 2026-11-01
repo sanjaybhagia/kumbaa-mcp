@@ -1,0 +1,11 @@
+{
+  "name": "kumbaa",
+  "version": "1.0.0",
+  "description": "Your family's private archive: the family tree, life stories, photos and albums, and for curators adding people, captioning photos and inviting relatives. Sign in with your Kumbaa account.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "kumbaa": {
+      "httpUrl": "https://kumbaa.app/mcp"
+    }
+  }
+}

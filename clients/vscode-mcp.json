@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "kumbaa": {
+      "type": "http",
+      "url": "https://kumbaa.app/mcp"
+    }
+  }
+}
